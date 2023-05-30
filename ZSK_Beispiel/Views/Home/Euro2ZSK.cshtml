@@ -1,0 +1,9 @@
+﻿// Menue
+@model ZSK_Beispiel.Models.Eurowert
+
+<form asp-action="Euro2ZSK" method="post">
+    <label asp-for="Euro">Euro</label>
+    <input asp-for="Euro" />
+
+    <button type="submit">Eurobetrag eingeben</button>
+</form>

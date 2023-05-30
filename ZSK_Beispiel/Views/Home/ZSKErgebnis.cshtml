@@ -1,0 +1,17 @@
+﻿@model ZSK_Beispiel.Models.ZSK
+
+<form asp-action="Euro2ZSK" method="get">
+    <label asp-for="AnzahlKuh">Anzahl Kühe</label>
+    <input asp-for="AnzahlKuh" />
+
+    <label asp-for="AnzahlSchaf">Anzahl Schafe</label>
+    <input asp-for="AnzahlSchaf" />
+
+    <label asp-for="AnzahlZiege">Anzahl Ziegen</label>
+    <input asp-for="AnzahlZiege" />
+
+    <label asp-for="AnzahlKleineZiege">Anzahl Kleine Ziegen</label>
+    <input asp-for="AnzahlKleineZiege" />
+
+    <button type="submit">Weitere Berechnungen</button>
+</form>
